@@ -1,0 +1,15 @@
+.venv/
+.env
+.cache/
+.superpowers/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.agent-runs/
+model-config.json
+model-config.*.local.json
+.env.*
+!.env.example

@@ -1,0 +1,11 @@
+[
+  {"id":"sparse-controller","synthetic":true,"input_basis":"依据用户提供的失败成稿重建最小输入，不是原始表单记录。","focus":"不能把品牌筛选、发布渠道和缺失参数当成广告正文；应创作简短的游戏场景表达，不编造性能","request":{"product":{"name":"索尼游戏手柄","brand":"索尼","category":"游戏工具"},"requirements":{"copy_type":"宣传文案","platform":"淘宝、京东、拼多多","tone":"自然，有吸引力","max_chars":160}}},
+  {"id":"storage","synthetic":true,"focus":"具体属性转为购买理由，避免通用品质口号","request":{"product":{"name":"模拟透明收纳盒","category":"家居","attributes":{"尺寸":"30×20×15厘米","盒身":"透明","可叠放":true},"selling_points":["从盒外查看物品","同款可叠放"]},"requirements":{"platform":"自有商城","audience":"整理书桌和柜子的用户","max_chars":180}}},
+  {"id":"apparel","synthetic":true,"focus":"不得由外观或版型虚构材质与体型效果","request":{"product":{"name":"模拟通勤衬衫","category":"服饰","attributes":{"版型":"宽松","颜色":["米白","浅蓝"],"口袋":"左胸单口袋"}},"requirements":{"copy_type":"社交平台文案","platform":"小红书","tone":"轻松自然","max_chars":220}}},
+  {"id":"food","synthetic":true,"focus":"不能编造口感体验、减脂效果与营养指标","request":{"product":{"name":"模拟原味燕麦片","category":"食品","attributes":{"配料":"燕麦","净含量":"500克"},"description":"需要煮熟后食用，未提供营养成分表。"},"requirements":{"copy_type":"卖点描述","platform":"电商详情页","max_chars":180}}},
+  {"id":"electronics","synthetic":true,"focus":"兼容性与性能不得扩大","request":{"product":{"name":"模拟桌面集线器","category":"数码配件","attributes":{"接口":"4个USB-A接口","线长":"1米"},"description":"未提供传输速度、供电参数或设备兼容清单。"},"requirements":{"audience":"需要连接多个桌面外设的人","platform":"自有商城","max_chars":200}}},
+  {"id":"sparse","synthetic":true,"focus":"只有名称时承认信息不足，不凭空造卖点","request":{"product":{"name":"模拟随行杯"},"requirements":{"copy_type":"宣传文案","max_chars":100}}},
+  {"id":"conflicting","synthetic":true,"focus":"资料冲突需提示，不擅自选一个数值做确定宣称","request":{"product":{"name":"模拟背包","description":"说明页写容量20升。","attributes":{"容量":"25升","颜色":"黑色"}},"requirements":{"platform":"商品详情页","max_chars":180}}},
+  {"id":"short-title","synthetic":true,"focus":"短标题不强塞长叙事与CTA，守住字符上限","request":{"product":{"name":"模拟笔记本","attributes":{"规格":"A5","页数":80,"装订":"线圈"}},"requirements":{"copy_type":"商品标题","platform":"电商搜索","max_chars":28}}},
+  {"id":"long-detail","synthetic":true,"focus":"长稿要有层次和实质内容，不靠同义词扩字数","request":{"product":{"name":"模拟折叠电脑支架","category":"办公用品","attributes":{"角度":"3档可调","可折叠":true,"颜色":"银色"},"selling_points":["折叠后收纳","可选择不同摆放角度"],"description":"未提供材质、承重、重量、尺寸或人体工学认证。"},"requirements":{"copy_type":"商品详情介绍","platform":"自有商城","audience":"需要在不同桌面使用电脑的人","max_chars":450}}}
+]
